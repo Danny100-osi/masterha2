@@ -6,7 +6,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<String> nombresProductos = new ArrayList<>();
+        ArrayList<String> Productos = new ArrayList<>();
         ArrayList<String> cantidades = new ArrayList<>();
         ArrayList<String> precios = new ArrayList<>();
         ;
@@ -14,8 +14,6 @@ public class Main {
 
         System.out.println("ingrese producto:");
         ingreseDatos = (scanner.next());
-
-    }
-
     }
 }
+
