@@ -9,7 +9,6 @@ public class Main {
         ArrayList<String> Productos = new ArrayList<>();
         ArrayList<String> cantidades = new ArrayList<>();
         ArrayList<String> precios = new ArrayList<>();
-        ;
 
 
         System.out.println("ingrese producto:");
