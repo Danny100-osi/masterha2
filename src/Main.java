@@ -8,13 +8,14 @@ public class Main {
 
         ArrayList<String> nombresProductos = new ArrayList<>();
         ArrayList<String> cantidades = new ArrayList<>();
-        ArrayList<String> precios = new ArrayList<>();;
+        ArrayList<String> precios = new ArrayList<>();
+        ;
 
 
         System.out.println("ingrese producto:");
         ingreseDatos = (scanner.next());
 
-
+    }
 
     }
 }
