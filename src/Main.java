@@ -37,7 +37,7 @@ public class Main {
 
                     // Agregar al inventario
                     nombres.add(nombre);
-                    cantidades.add(cantidad*);
+                    cantidades.add(cantidad*1);
                     precios.add(precio);
                     System.out.println("Producto agregado exitosamente.");
                     break;
