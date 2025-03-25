@@ -11,10 +11,11 @@ public class Main {
         ArrayList<Integer> cantidades = new ArrayList<>();  // Para almacenar las cantidades
         ArrayList<Double> precios = new ArrayList<>();  // Para almacenar los precios
 
+
         while (true) {
             // Menú de opciones
             System.out.println("----- Menú de Inventario -----");
-            System.out.println("1. Agregar Producto");
+            System.out.println("1. Agregar Producto" + 0.12);
             System.out.println("2. Eliminar Producto");
             System.out.println("3. Mostrar Inventario");
             System.out.println("4. Buscar Producto");
@@ -36,7 +37,7 @@ public class Main {
 
                     // Agregar al inventario
                     nombres.add(nombre);
-                    cantidades.add(cantidad);
+                    cantidades.add(cantidad*);
                     precios.add(precio);
                     System.out.println("Producto agregado exitosamente.");
                     break;
